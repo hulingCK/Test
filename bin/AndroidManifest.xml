@@ -4,8 +4,11 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <instrumentation
+   <instrumentation
         android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.example.myhellowworld" /> 
+    <instrumentation
+        android:name="com.neenbedankt.android.test.InstrumentationTestRunner"
         android:targetPackage="com.example.myhellowworld" />
 
     <application
